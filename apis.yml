@@ -1,8 +1,24 @@
 aid: lumachain
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lumachain.png
 name: Lumachain
-description: 'Lumachain is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Lumachain provides computer-vision AI for the food supply chain, delivering real-time
+  detection of critical production events across high-throughput meat and food processing plants. Its
+  on-site platform monitors deboning-equipment yield, animal welfare, foreign-object detection, and
+  quality control across beef, pork, poultry, and finished-goods facilities, generating structured
+  signals that integrate with existing plant systems. The company is backed by Bessemer Venture Partners
+  with investors including Chipotle. No public developer portal, API documentation, or SDK is currently
+  published.'
 url: https://raw.githubusercontent.com/api-evangelist/lumachain/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Deep Tech
+- Artificial Intelligence
+- Computer Vision
+- Food Supply Chain
+- Food Safety
+- Traceability
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,12 @@ maintainers:
 common:
 - type: Website
   url: https://lumachain.io/
+- type: PrivacyPolicy
+  url: https://lumachain.io/privacy-policy/
+- type: DomainSecurity
+  url: security/lumachain-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
